@@ -1,0 +1,23 @@
+/* CSS Document */
+#main_container {
+	width:1024px;
+	margin:0 auto;
+}
+#accountPhoto {
+	width:150px;
+	height:150px;
+	background:#09F;
+	float:left;
+}
+
+#accountProfile {
+	float:left;
+	width:600px;
+	border:1px solid #F00;
+}
+
+#accountRightside {
+	float:right;
+	width:400px;
+	border:1px solid #00F;
+}

@@ -1,0 +1,159 @@
+/* 
+    Document   : viewActivitycs
+    Created on : 17-Mar-2013, 9:26:08 PM
+    Author     : carolineshaw
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+ 
+
+#activitycs
+{
+
+margin:0 auto;
+background-color:#fff;
+background-color: rgba(255, 255, 255, 0.8);
+width:1100px;
+height:1200px;
+margin-top:10px;
+
+}
+
+.pathnamecs
+{
+clear:both;
+width:1100px;
+margin:0 auto;
+padding-left:10px;
+font-family: 'Text Me One', sans-serif;
+font-size:32px;
+
+}
+
+#leftcolcs
+{
+	width:500px;
+	
+	float:left;
+	margin:30px;
+	
+}
+
+#rightcolcs
+{
+	width:450px;
+	
+	float:right;
+	margin:30px;
+}
+
+#commentarea
+{
+    clear:both;
+    margin:30px;
+}
+
+#mapbg
+{
+padding-top:20px;
+background-color:#fff;
+width:460px;
+height:400px;
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+box-shadow: 5px 5px 5px #888888;
+
+}
+#googleMap
+{
+    margin:0 auto;
+    width:420px;
+    height:380px;
+}
+
+#commentdiv
+{
+margin:20px 0 0 20px;
+clear:both;
+}
+
+#activitydesc
+{
+padding:30px 0 0 0;
+}
+
+/* - - - - - - -  -  - - - - - - -  - - - - - - - - - - - -  Responsive CSS   - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+	
+/* - - - - - - - - - - - - - - - - - - - - - - - -  Samsung Galaxy Nexus (width of 720px) and iPad (width of 768px)   - - - - - - - - - - - - - - - - - - - - - - - - - */
+ 
+@media screen and (max-width: 980px) {
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - -  iPhone (width of 640px) and Smartphone/Nexus S (width of 480px)  - - - - - - - - - - - - - - - - - - - - - - - - - */
+@media screen and (max-width: 640px) {	
+#activitycs
+{
+    max-width:640px;
+}
+    
+    #rightcolcs
+{
+	width:450px;
+	clear:both;
+        float:left;
+	margin:30px;
+}
+
+							
+}
+
+@media screen and (max-width: 480px) {
+    #activitycs
+{
+    max-width:480px;
+}
+    p{
+    font-size:18px;
+    }    
+#leftcolcs
+{
+	width:380px;
+	clear:both;
+        float:left;
+	/*margin:20px;*/
+}	
+
+#mapbg
+{
+padding-top:20px;
+background-color:#fff;
+width:320px;
+height:320px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+
+}
+#googleMap
+{
+margin:0 auto;
+width:300px;
+height:300px;
+
+}
+
+.pathnamecs
+{
+    
+    font-size:24px;
+}
+
+
+}
+
